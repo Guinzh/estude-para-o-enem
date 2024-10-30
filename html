@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estude para o ENEM Agora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Estude para o ENEM Agora</h1>
+    </header>
+    <main>
+        <section id="provas">
+            <h2>Provas Antigas</h2>
+            <ul>
+                <li><a href="provas/prova1.pdf">Prova 1</a></li>
+                <li><a href="provas/prova2.pdf">Prova 2</a></li>
+                ...
+            </ul>
+        </section>
+        <section id="questionario">
+            <h2>Questionário</h2>
+            <form>
+                <label for="prova">Selecione a prova:</label>
+                <select id="prova" name="prova">
+                    <option value="prova1">Prova 1</option>
+                    <option value="prova2">Prova 2</option>
+                    ...
+                </select>
+                <button type="submit">Iniciar Questionário</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
